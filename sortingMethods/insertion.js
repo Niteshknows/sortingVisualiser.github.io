@@ -2,7 +2,7 @@ async function insertion(){
     console.log('In insertion()');
     const ele = document.querySelectorAll(".bar");
     // color
-    ele[0].style.background = 'green';
+    ele[0].style.background = 'blue';
     for(let i = 1; i < ele.length; i++){
         console.log('In ith loop');
         let j = i - 1;
